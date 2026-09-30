@@ -1,0 +1,2 @@
+export(bmzdp)
+importFrom(stats, dbinom, rbeta, rbinom, rgamma, rmultinom, rnorm, runif)

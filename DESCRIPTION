@@ -1,0 +1,15 @@
+Package: BMZDP
+Title: Bayesian Semi-Parametric Joint Model for Clustered Zero-Inflated Recurrent Events and a Terminal Event
+Version: 0.1.0
+Authors@R: person("Xinyuan", "Tian", email = "x.tian@yale.edu", role = c("aut", "cre"))
+Description: Markov chain Monte Carlo sampler for the BMZ-DP model of Tian et al.
+    (2024), which jointly models a zero-inflated recurrent event process and a
+    terminal event process for clustered data. The recurrent intensity is a
+    point-mass mixture of non-homogeneous Poisson processes, shared random
+    effects link the recurrent and terminal event processes, and Dirichlet
+    process priors are placed on the residual of the accelerated failure time
+    model for the terminal event and on the cluster-specific frailty
+    distribution.
+License: file LICENSE
+Encoding: UTF-8
+Imports: stats
